@@ -265,11 +265,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DictionaryCoding.xcodeproj/DictionaryCoding_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@rpath";
 				OTHER_CFLAGS = "$(inherited)";
@@ -287,11 +282,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DictionaryCoding.xcodeproj/DictionaryCoding_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@rpath";
 				OTHER_CFLAGS = "$(inherited)";
