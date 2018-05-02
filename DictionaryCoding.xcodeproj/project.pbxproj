@@ -266,7 +266,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = DictionaryCoding.xcodeproj/DictionaryCoding_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "${inherited} @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boinx.DictionaryCoding;
@@ -283,7 +283,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = DictionaryCoding.xcodeproj/DictionaryCoding_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "${inherited} @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boinx.DictionaryCoding;
