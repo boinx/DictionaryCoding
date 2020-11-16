@@ -201,6 +201,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = OBJ_5;
@@ -264,6 +265,7 @@
 		OBJ_23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = DictionaryCoding.xcodeproj/DictionaryCoding_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "${inherited} @executable_path/Frameworks @loader_path/Frameworks";
@@ -281,6 +283,7 @@
 		OBJ_24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = DictionaryCoding.xcodeproj/DictionaryCoding_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "${inherited} @executable_path/Frameworks @loader_path/Frameworks";
